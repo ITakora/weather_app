@@ -14,7 +14,9 @@ class WeatherApi {
       final Map<String, dynamic> data = (jsonDecode(respone.body));
       final dataApi = WeatherModel.fromJson(data);
       return dataApi;
-    } catch (e) {}
+    } catch (e) {
+      print(e);
+    }
 
     return getApi(location);
   }
