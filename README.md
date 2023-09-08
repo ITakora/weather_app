@@ -1,4 +1,4 @@
-# Weather App
+# Weather App :partly_sunny:
 
 A new Flutter project.
 
